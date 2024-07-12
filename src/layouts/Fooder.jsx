@@ -2,7 +2,7 @@ import React from 'react'
 
 function Fooder() {
   return (
-  <h2>join the waitlist</h2>
+  <h6>foodie @ 2024</h6>
   )
 }
 

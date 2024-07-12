@@ -1,9 +1,118 @@
-.phone-content {
-  width: 90%;
-  max-width: 350px;
-  height: 700px;
-  min-height: 300px; /* Ensures a minimum height for smaller screens */
-  background-color: #f0f0f0;
+body {
+  background-color: transparent;
+  margin: 0;
+  padding: 0;
+}
+
+.smartphone {
+  width: 360px;
+  height: 640px;
+  background-color: #000;
+  border-radius: 40px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  overflow: hidden;
+  border: 16px solid #000;
+  margin: 20px auto;
+}
+
+.smartphone-top {
+  width: 100%;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 0;
+}
+
+.camera {
+  width: 10px;
+  height: 10px;
+  background-color: #333;
+  border-radius: 50%;
+  margin-right: 8px;
+}
+
+.speaker {
+  width: 60px;
+  height: 6px;
+  background-color: #333;
+  border-radius: 3px;
+}
+
+.smartphone-screen {
+  width: 100%;
+  height: calc(100% - 80px);
+  background-color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 16px;
+}
+
+.smartphone-screen video {
+  width: 100%;
+  height: auto;
+  border-radius: 30px;
+}
+
+.smartphone-bottom {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  bottom: 0;
+}
+
+.content {
+  text-align: right;
+  max-width: 300px;
+  margin: 20px;
+}
+
+.content h2, .content p {
+  display: block;
+  margin: 10px 0;
+}
+
+.content button {
+  display: block;
+  margin: 10px auto; /* Center the button */
+  background-color: red !important;
+}
+
+.foodie {
+  text-align: left;
+}
+
+.head-btn {
+  background-color: red;
+  border: 1px solid rgb(225, 57, 57);
   border-radius: 20px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 5px;
+  width: fit-content;
+  justify-content: end;
+  color: #fff;
+}
+
+.para {
+  text-align: center;
+}
+
+.btn {
+  background-color: red !important;
+}
+
+.form-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin: 20px;
+  background-color: transparent; /* Transparent background */
+  padding: 20px;
+  border-top: 5px solid red;
 }
